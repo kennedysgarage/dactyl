@@ -1,4 +1,4 @@
-# Dactyl
+# Dactyl (PHP)
 Trying out a new starting point for websites that I build for clients. This is what I use when there is no need for CMS.
 
 # Docs
