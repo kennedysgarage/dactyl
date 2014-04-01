@@ -8,6 +8,3 @@ Trying out a new starting point for websites that I build for clients. This is w
 
 ### Update your info
 * ```_config.yml```
-
-## Credits
- * [Bootstrap](https://github.com/twitter/bootstrap) is the base for the HTML & CSS on this project.
