@@ -1,3 +1,57 @@
 @import "compass";
 @import "reset.css.scss";
 /* ========================================================= Main ===*/
+html, body{
+    background-color: #dadedf;
+    color: #373737;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.45;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+section{
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 0 0 5%;
+}
+.content{
+    padding: 5%;
+}
+.row{
+    padding: 1rem 0;
+}
+/* ========================================================= Header ===*/
+/* ------
+-- Nav --
+------ */
+/* ========================================================= Footer ===*/
+/* ========================================================= Adapt ===*/
+@media all and (min-width: 40rem) {
+    html,body{font-size: 1.125em;}
+    .column {
+        float: left;
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .column.full { width: 100%; }
+    .column.three-fourth { width: 75%; }
+    .column.two-thirds { width: 66.7%; }
+    .column.half { width: 50%; }
+    .column.third { width: 33.3%; }
+    .column.fourth { width: 25%; }
+    .column.flow-opposite { float: right; }
+}
+@media all and (min-width: 64rem) {
+    html,body{font-size: 1.25em;}
+
+}
