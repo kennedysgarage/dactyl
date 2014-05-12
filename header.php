@@ -16,7 +16,7 @@
 
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/main.css">
 
   <script src="/js/modernizr.min.js"></script>
