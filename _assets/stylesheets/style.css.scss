@@ -2,6 +2,7 @@
 @import "reset.css.scss";
 @import "fontface.css.scss";
 @import "typography.css.scss";
+@import "grid.css.scss";
 /* ========================================================= Main ===*/
 html, body{
     background-color: #dadedf;
@@ -14,22 +15,6 @@ html, body{
     -moz-osx-font-smoothing: grayscale;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
-.container {
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 0 20px;
-}
-section{
-    background-color: #fff;
-    border-radius: 2px;
-    margin: 0 0 5%;
-}
-.content{
-    padding: 5%;
-}
-.row{
-    padding: 1rem 0;
 }
 /* ========================================================= Header ===*/
 /* ------
