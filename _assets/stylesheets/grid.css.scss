@@ -1,0 +1,17 @@
+/* ========================================================= Grid ===*/
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 1em;
+}
+.content{
+    padding: 5%;
+}
+.row{
+    margin: 0 -1em;
+}
+.column {
+    float: left;
+    padding: 0 1rem;
+    width: 100%;
+}
