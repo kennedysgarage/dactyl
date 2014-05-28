@@ -1,0 +1,68 @@
+/* ========================================================= Typography ===*/
+h1, h2, h3, h4 {
+  color: #25272B;
+  margin: 1.414em 0 0.5em;
+  font-weight: normal;
+  line-height: 1.2;
+}
+h1{
+  font-family: 'ProximaNovaLight', sans-serif;
+  font-size: 3.998em;
+  margin-top: 0;
+}
+h2{
+  font-family: 'ProximaNovaBold', sans-serif;
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-size: 2.827em;
+  margin: 0 0 5px;
+
+  font-size: 1.414em;
+  text-transform: uppercase;
+}
+h3{
+  /*border-bottom: 3px solid $grey-dk;*/
+  display: block;
+  font-family: 'ProximaNovaBold', sans-serif;
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-size: 1.999em;
+  margin: 35px 0 15px;  
+}
+h4{
+  font-family: 'ProximaNovaBold', sans-serif;
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-size: 1.414em;
+  margin: 5px 0;
+}
+p{
+  color: #656565;
+  color: #37383A;
+  line-height: 1.5;
+  margin: 0 0 1.3em;
+}
+strong{
+  color: #000;
+}
+small, .font_small{
+  font-size: 0.707em;
+}
+ul{
+  margin: 0 0 20px;
+}
+li{
+  color: #656565;
+  font-family: 'ProximaNova', sans-serif;
+  line-height: 1.5;
+}
+dl{
+  color: #656565;
+  font-family: 'ProximaNova', sans-serif;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+dt{
+  font-weight: bold;
+}
+dd{
+  color: #A9A9A9;
+  margin: 0 0 10px 10px;
+}
