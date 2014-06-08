@@ -37,7 +37,7 @@ html, body{
     .column.half { width: 50%; }
     .column.third { width: 33.3%; }
     .column.fourth { width: 25%; }
-    .column.flow-opposite { float: right; }
+    .column.pull-right { float: right; }
 }
 @media all and (min-width: 64rem) {
     html,body{font-size: 1.25em;}
