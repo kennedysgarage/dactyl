@@ -11,6 +11,7 @@ html, body{
     font-size: 1em;
     font-weight: 400;
     line-height: 1.45;
+    width: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -21,25 +22,37 @@ html, body{
 /* ------
 -- Nav --
 ------ */
-/* ========================================================= Footer ===*/
-/* ========================================================= Adapt ===*/
-@media all and (min-width: 40rem) {
-    html,body{font-size: 1.125em;}
-    .column {
-        float: left;
-        margin: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
+nav{
+  ul{
+    li{
+      a{
+
+      }
     }
-    .column.full { width: 100%; }
-    .column.three-fourth { width: 75%; }
-    .column.two-thirds { width: 66.7%; }
-    .column.half { width: 50%; }
-    .column.third { width: 33.3%; }
-    .column.fourth { width: 25%; }
-    .column.pull-right { float: right; }
+  }
 }
-@media all and (min-width: 64rem) {
-    html,body{font-size: 1.25em;}
+/* ========================================================= Footer ===*/
+footer{
+
+}
+/* ========================================================= Respond ===*/
+@media all and (min-width: 41em){
+  body{font-size: 1.125em;}
+  .container{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .row{
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+  .col-12 { width: 100%; }
+  .col-9 { width: 75%; }
+  .col-8 { width: 66.7%; }
+  .col-6 { width: 50%; }
+  .col-4 { width: 33.3%; }
+  .col-3 { width: 25%; }
+}
+@media all and (min-width: 960px){
 
 }
