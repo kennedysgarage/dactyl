@@ -1,55 +1,56 @@
 /* ========================================================= Main ===*/
 html, body{
-    background-color: #dadedf;
+    background-color: #f7f7f7;
     color: #373737;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.45;
+    width: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-.container {
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 0 20px;
-}
-section{
-    background-color: #fff;
-    border-radius: 2px;
-    margin: 0 0 5%;
-}
-.content{
-    padding: 5%;
-}
-.row{
-    padding: 1rem 0;
-}
 /* ========================================================= Header ===*/
+header{
+    
+}
 /* ------
 -- Nav --
 ------ */
-/* ========================================================= Footer ===*/
-/* ========================================================= Adapt ===*/
-@media all and (min-width: 40rem) {
-    html,body{font-size: 1.125em;}
-    .column {
-        float: left;
-        margin: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
+nav{
+  ul{
+    li{
+      a{
+
+      }
     }
-    .column.full { width: 100%; }
-    .column.three-fourth { width: 75%; }
-    .column.two-thirds { width: 66.7%; }
-    .column.half { width: 50%; }
-    .column.third { width: 33.3%; }
-    .column.fourth { width: 25%; }
-    .column.flow-opposite { float: right; }
+  }
 }
-@media all and (min-width: 64rem) {
-    html,body{font-size: 1.25em;}
+/* ========================================================= Main ===*/
+/* ========================================================= Footer ===*/
+footer{
+
+}
+/* ========================================================= Adapt ===*/
+@media all and (min-width: 41em){
+  body{font-size: 1.125em;}
+  .container{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .row{
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+  .col-12 { width: 100%; }
+  .col-9 { width: 75%; }
+  .col-8 { width: 66.7%; }
+  .col-6 { width: 50%; }
+  .col-4 { width: 33.3%; }
+  .col-3 { width: 25%; }
+}
+@media all and (min-width: 960px){
 
 }
