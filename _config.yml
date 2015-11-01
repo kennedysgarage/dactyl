@@ -1,8 +1,11 @@
+title: Dactyl
+description:
+
 name: "Dactyl"
 permalink: pretty
-author: 
+author:
 email:
-url: 
+url:
 
 exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
 
