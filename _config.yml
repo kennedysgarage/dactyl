@@ -7,6 +7,12 @@ author:
 email:
 url:
 
+gems:
+  - jekyll-assets
+  - jekyll-compass
+  - uglifier
+  - sass
+
 exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
 
 assets:
