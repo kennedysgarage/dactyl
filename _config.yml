@@ -9,7 +9,6 @@ url:
 
 gems:
   - jekyll-assets
-  - jekyll-compass
   - uglifier
   - sass
 
