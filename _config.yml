@@ -12,7 +12,13 @@ gems:
   - uglifier
   - sass
 
-exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
+exclude:
+  - CNAME
+  - editorconfig.txt
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - RAKEFILE
 
 assets:
   dirname: assets
