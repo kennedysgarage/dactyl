@@ -1,16 +1,14 @@
-title: Dactyl
-description:
-
 name: "Dactyl"
+author: 
+email: 
+url: 
+title: 
+description: 
 permalink: pretty
-author:
-email:
-url:
+markdown: kramdown
+highlighter: rouge
 
-gems:
-  - jekyll-assets
-  - uglifier
-  - sass
+include: ['_pages']
 
 exclude:
   - CNAME
@@ -20,13 +18,18 @@ exclude:
   - README.md
   - RAKEFILE
 
+gems:
+  - jekyll-assets
+  - uglifier
+  - sass
+
 assets:
   dirname: assets
   baseurl: /assets/
-  sources:
-    - _assets/fonts
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-  js_compressor: uglifier
-  css_compressor: sass
+  cache: false
+
+sources:
+  - _assets/fonts
+  - _assets/images
+  - _assets/javascripts
+  - _assets/stylesheets
