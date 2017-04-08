@@ -51,12 +51,17 @@ footer{
     margin-left: -1em;
     margin-right: -1em;
   }
-  .col-12 { width: 100%; }
-  .col-9 { width: 75%; }
-  .col-8 { width: 66.7%; }
-  .col-6 { width: 50%; }
-  .col-4 { width: 33.3%; }
-  .col-3 { width: 25%; }
+  .col-100 { width: 100%; }
+  .col-80 { width: 80%; }
+  .col-75 { width: 75%; }
+  .col-66 { width: 66.7%; }
+  .col-60 { width: 60%; }
+  .col-50 { width: 50%; }
+  .col-40 { width: 40%; }
+  .col-33 { width: 33.3%; }
+  .col-25 { width: 25%; }
+  .col-20 { width: 20%; }
+  .col-10 { width: 10%; }
 }
 @media all and (min-width: 960px){
 
