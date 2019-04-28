@@ -267,7 +267,7 @@ grid>c[span=row] {
     }
 
     grid>c[span-s=row] {
-        grid-column: 1/-1
+        grid-column: 1/-1;
     }
 }
 /* ========================================================= Large ===*/
