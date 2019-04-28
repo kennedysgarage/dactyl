@@ -153,7 +153,7 @@ grid>c[span*=".."] {
 }
 
 grid>c[span=row] {
-    grid-column: 1/-1
+    grid-column: 1/-1;
 }
 /* ========================================================= Small ===*/
 @media only screen and (max-width:600px) {
@@ -382,7 +382,7 @@ grid>c[span=row] {
     }
 
     grid>c[span-l=row] {
-        grid-column: 1/-1
+        grid-column: 1/-1;
     }
 }
 
