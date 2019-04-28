@@ -4,22 +4,27 @@
 @import "typography.css.scss";
 @import "grid.css.scss";
 /* ========================================================= Main ===*/
+html {
+    font-size: var(--fontSize);
+    line-height: var(--lineHeight);
+    letter-spacing: -.01em;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 html, body{
     background-color: #f7f7f7;
     color: #373737;
-    font-size: 1em;
     font-weight: 400;
-    line-height: 1.45;
     width: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
 }
 /* ========================================================= Header ===*/
 header{
-    
+
 }
 /* ------
 -- Nav --
@@ -29,7 +34,7 @@ nav{
     li{
       a{
         &:hover{
-            
+
         }
       }
     }
